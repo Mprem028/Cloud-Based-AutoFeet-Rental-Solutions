@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ViewCart"
+        android:id="@+id/viewcart"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:layout_marginTop="4dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Offers"
+        android:id="@+id/offers"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:layout_marginTop="4dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Buy items"
+        android:id="@+id/buyitems"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:layout_marginTop="4dp"
+        />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:layout_marginTop="80dp"
+        />
+
+
+</LinearLayout>

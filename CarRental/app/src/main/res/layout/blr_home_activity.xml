@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg3"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/temples"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.5"
+            android:background="@color/blue"
+            android:text="Temples"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/malls"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.5"
+            android:background="@color/blue"
+            android:text="Shopping Malls"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/places"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Visiting Places"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/rentals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Bike/Car Rentals"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/flight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Flight/Train Book"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/learn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:text="Learn Kannada"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/helpline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Helpline"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/restaturants"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Restaurants"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

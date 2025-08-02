@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg3"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/othdata"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:hint="Enter IA1 CO1 marks"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+         />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter IA1 CO2 marks"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter IA2 CO1 marks"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:hint="Enter IA2 CO2 marks"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter IA3 CO1 marks"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:hint="Enter IA3 CO2 marks"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:ems="10"
+        android:maxLength="1"
+        android:singleLine="true"
+        android:hint="Enter grade score"
+        android:inputType="number"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:hint="Enter record score"
+        android:inputType="number"
+        android:visibility="gone"
+        android:textColor="#f59393"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/button_rounded"
+        android:inputType="textPersonName"
+        android:text="Submit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

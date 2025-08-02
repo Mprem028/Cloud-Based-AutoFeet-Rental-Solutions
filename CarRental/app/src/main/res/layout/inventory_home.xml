@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="Add Item"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:text="View Item"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fetch"
+        android:text="Fetch Item"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sell"
+        android:text="Sell Item"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        />
+
+</LinearLayout>

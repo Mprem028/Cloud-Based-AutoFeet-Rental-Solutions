@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@drawable/mobicarpool"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/sourcedest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter (src-dest)"
+        android:textColor="#fff"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/cartype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Which car"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/carpoollist"
+
+        />
+
+
+
+</LinearLayout>

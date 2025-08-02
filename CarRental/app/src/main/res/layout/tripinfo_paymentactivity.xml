@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/cardnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your card number"
+        android:maxLength="16"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <EditText
+        android:id="@+id/expiry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789/"
+        android:layout_weight="0.5"
+        android:inputType="number"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:hint="expiry month" />
+
+    <EditText
+        android:id="@+id/expiryyear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789/"
+        android:layout_weight="0.5"
+        android:inputType="number"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:hint="expiry year" />
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter CVV"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submit" />
+
+
+</LinearLayout>

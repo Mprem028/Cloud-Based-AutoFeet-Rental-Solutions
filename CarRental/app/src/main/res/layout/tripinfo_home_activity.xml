@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg3"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/categories"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.5"
+            android:background="@color/blue"
+            android:text="Categories"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/packages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.5"
+            android:background="@color/blue"
+            android:text="Packages"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/hotels"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Hotels"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/cabs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Cab's/TT's"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/whatsnearme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="Near me"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:text="Help"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.3"
+            android:background="@color/blue"
+            android:text="My Account"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

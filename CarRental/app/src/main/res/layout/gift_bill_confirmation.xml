@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="12dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/totalamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#740b0b"
+        android:ems="10"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:hint="amount" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="12dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:background="@color/blue"
+        android:text="Confirm" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#740b0b"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#740b0b"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="36dp"
+            android:inputType="textPersonName"
+            android:text="Quantity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#740b0b"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="36dp"
+            android:inputType="textPersonName"
+            android:text="Price" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+
+        />
+
+</LinearLayout>

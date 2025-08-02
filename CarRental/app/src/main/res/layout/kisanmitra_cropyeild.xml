@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <!--android:background="@drawable/gradientbg3"-->
+
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f59393"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="12dp"
+        android:textColorHint="@color/black"
+        />
+
+
+    <EditText
+        android:id="@+id/noofacres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f59393"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="5"
+        android:layout_margin="12dp"
+        android:hint="No of Acres"
+        android:textColorHint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/button_rounded"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Submit" />
+
+
+    <TextView
+        android:id="@+id/textviewVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#642727"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="12dp"
+        android:textColorHint="@color/black"
+        />
+
+
+</LinearLayout>

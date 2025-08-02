@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="12dp"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:hint="Location"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choose Radius"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/twentyfeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="20 ft"
+            android:textSize="16sp"
+            />
+
+        <RadioButton
+            android:id="@+id/thrityfeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 ft"
+            android:textSize="16sp"
+            />
+
+
+        <RadioButton
+            android:id="@+id/fourtyfeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40 ft"
+            android:textSize="16sp"
+            />
+
+        <RadioButton
+            android:id="@+id/manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Manual" />
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiusmanual"
+        android:hint="Enter radius"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/houseName"
+        android:hint="Enter house name"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectDocument"
+        android:text="Select Document"
+        android:layout_marginTop="12dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_marginTop="12dp"
+        />
+
+
+
+</LinearLayout>

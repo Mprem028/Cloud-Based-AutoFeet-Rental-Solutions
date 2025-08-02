@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|left"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter admin phone number"
+        android:inputType="phone"
+        android:visibility="gone" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/bjp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:drawableRight="@drawable/bjplogo"
+            android:drawablePadding="12dp"
+            android:text="BJP " />
+
+
+        <RadioButton
+            android:id="@+id/cong"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:drawableRight="@drawable/conglogo"
+            android:drawablePadding="12dp"
+            android:text="CONG" />
+
+
+        <RadioButton
+            android:id="@+id/jds"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:drawableRight="@drawable/jds"
+            android:drawablePadding="12dp"
+            android:text="JDS " />
+
+        <RadioButton
+            android:id="@+id/oth"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:drawableRight="@drawable/othlogo"
+            android:drawablePadding="12dp"
+            android:text="OTHS" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>

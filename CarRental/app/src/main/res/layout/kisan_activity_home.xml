@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="You want to be buyer?"
+            android:visibility="gone"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text=""
+            android:visibility="gone"
+            />
+
+
+        <Button
+            android:id="@+id/registercrop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_drawable"
+            android:text="Register Crop"
+            android:layout_marginTop="12dp"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/marketrate"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_marketrate"
+            android:drawablePadding="4dp"
+            android:text="MarketRate"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/youtubelink"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_youtube"
+            android:drawablePadding="4dp"
+            android:text="Best Practices"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/blogs"
+            android:layout_width="match_parent"
+            android:text="Blogs"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_blogs"
+            android:drawablePadding="4dp"
+
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/postitems"
+            android:layout_width="match_parent"
+            android:text="Post Farm Equipment"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_eqp"
+            android:drawablePadding="4dp"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/viewpostitems"
+            android:layout_width="match_parent"
+            android:text="View Farm Equipment"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_eqp"
+            android:drawablePadding="4dp"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/myposts"
+            android:layout_width="match_parent"
+            android:text="View My Posts"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_eqp"
+            android:drawablePadding="4dp"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/viewpostitemsgrocery"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_grocery"
+            android:drawablePadding="4dp"
+            android:text="View Groceries"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/postgroceries"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_grocery"
+            android:drawablePadding="4dp"
+            android:text="Post Groceries"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/purchase"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_shopping"
+            android:drawablePadding="4dp"
+            android:text="Shopping"
+            android:textColor="#301560"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/viewbuyers"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_shopping"
+            android:drawablePadding="4dp"
+            android:text="View Buyers"
+            android:textColor="#301560"
+            android:visibility="gone"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/additems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Items" />
+
+        <Button
+            android:id="@+id/viewusers"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="View Registered Users"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_mandi"
+            android:drawablePadding="4dp"
+            android:textColor="#301560"
+            android:visibility="gone"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/nearbymarket"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/button_image_mandi"
+            android:drawablePadding="4dp"
+            android:text="View Mandi"
+            android:textColor="#301560"
+            android:visibility="gone"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/helpline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/button_image_helpline"
+            android:gravity="center"
+            android:text="HelpLine: 8183098675"
+            android:textColor="#E8D4D2" />
+
+
+    </LinearLayout>
+</ScrollView>

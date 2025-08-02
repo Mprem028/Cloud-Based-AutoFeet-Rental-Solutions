@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Student" />
+
+    <Button
+        android:id="@+id/addalumni"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Alumni" />
+
+    <Button
+        android:id="@+id/notifyalumni"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Notify Alumni" />
+
+    <Button
+        android:id="@+id/postjobs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Post Jobs" />
+
+    <Button
+        android:id="@+id/viewjobs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Jobs" />
+
+    <Button
+        android:id="@+id/postbooks"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Post Books" />
+
+    <Button
+        android:id="@+id/viewposts"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Books" />
+
+    <Button
+        android:id="@+id/viewbooksissued"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Books Issued" />
+
+    <Button
+        android:id="@+id/issuebook"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Issue Book" />
+
+    <Button
+        android:id="@+id/notifydue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Notify Book Due" />
+
+    <Button
+        android:id="@+id/blogs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Blogs" />
+
+    <Button
+        android:id="@+id/notifybirthday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Wish Birthday" />
+
+    <Button
+        android:id="@+id/notifyanniversary"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Wish Anniversary" />
+
+</LinearLayout>

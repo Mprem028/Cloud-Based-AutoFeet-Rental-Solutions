@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg3"
+    android:gravity="center"
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f59393"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:layout_margin="12dp"
+        android:hint="phone"
+        android:textColorHint="@color/white"
+        />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/button_rounded"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Submit" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f59393"
+        android:ems="10"
+        android:maxLength="4"
+        android:inputType="number"
+        android:layout_margin="12dp"
+        android:hint="Enter otp"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        />
+
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/button_rounded"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:text="Verify" />
+
+
+</LinearLayout>
